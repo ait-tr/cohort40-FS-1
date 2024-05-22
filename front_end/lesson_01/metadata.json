@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/01_ts_intro_22_05_2024/01-types.js",
+    "code/01_ts_intro_22_05_2024/01-types.ts",
+    "code/01_ts_intro_22_05_2024/tsconfig.json"
+  ],
+  "video": "",
+  "etc": ""
+}
