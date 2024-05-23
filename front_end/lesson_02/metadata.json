@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/02_react_intro_23_05_2024/index.html",
+    "code/02_react_intro_23_05_2024/script.js",
+    "code/02_react_intro_23_05_2024/scriptFC.js",
+    "code/02_react_intro_23_05_2024/scriptCC.js"
+  ],
+  "video": "",
+  "etc": ""
+}
