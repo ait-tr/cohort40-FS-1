@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/03_react_props_state_27_05_2024/index.html",
+    "code/03_react_props_state_27_05_2024/script.js",
+    "code/03_react_props_state_27_05_2024/scriptFC.js",
+    "code/03_react_props_state_27_05_2024/scriptCC.js",
+    "code/03_react_props_state_27_05_2024/scriptPropsFC.js",
+    "code/03_react_props_state_27_05_2024/scriptPropsCC.js",
+    "code/03_react_props_state_27_05_2024/Task.js",
+    "code/03_react_props_state_27_05_2024/hwChessChampions.js",
+    "code/06_vite_30_05_2024/src/App.jsx",
+    "code/06_vite_30_05_2024/src/App.css",
+    "code/06_vite_30_05_2024/src/index.css",
+    "code/06_vite_30_05_2024/src/main.jsx"
+  ],
+  "video": "",
+  "etc": ""
+}
