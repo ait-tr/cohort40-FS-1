@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/06_vite_30_05_2024/src/components/Task.jsx",
+    "code/06_vite_30_05_2024/src/components/TaskList.jsx",
+    "code/06_vite_30_05_2024/src/components/UserList.jsx",
+    "code/06_vite_30_05_2024/src/App.jsx",
+    "code/06_vite_30_05_2024/src/main.jsx"
+  ],
+  "video": "",
+  "etc": ""
+}
