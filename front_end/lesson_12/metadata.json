@@ -1,0 +1,27 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/09_react_ts_routing_04_06_2024/src/components/Task.tsx",
+    "code/09_react_ts_routing_04_06_2024/src/components/TaskList.tsx",
+    "code/09_react_ts_routing_04_06_2024/src/components/User.tsx",
+    "code/09_react_ts_routing_04_06_2024/src/components/UserList.tsx",
+    "code/09_react_ts_routing_04_06_2024/src/components/Photo.tsx",
+    "code/09_react_ts_routing_04_06_2024/src/components/PhotoList.tsx",
+    "code/09_react_ts_routing_04_06_2024/src/layout/Layout.tsx",
+    "code/09_react_ts_routing_04_06_2024/src/layout/Navigation.tsx",
+    "code/09_react_ts_routing_04_06_2024/src/App.tsx",
+    "code/09_react_ts_routing_04_06_2024/src/main.tsx",
+    "code/12_star_wars_07_06_2024/src/components/Header.tsx",
+    "code/12_star_wars_07_06_2024/src/components/Navigation.tsx",
+    "code/12_star_wars_07_06_2024/src/components/NavItem.tsx",
+    "code/12_star_wars_07_06_2024/src/utils/constants.ts",
+    "code/12_star_wars_07_06_2024/src/App.tsx",
+    "code/12_star_wars_07_06_2024/src/main.tsx",
+    "code/12_star_wars_07_06_2024/src/App.css",
+    "code/12_star_wars_07_06_2024/src/index.css"
+  ],
+  "video": "",
+  "etc": ""
+}
