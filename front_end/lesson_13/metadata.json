@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/12_star_wars_07_06_2024/src/components/DreamTeam.tsx",
+    "code/12_star_wars_07_06_2024/src/components/FarGalaxy.tsx",
+    "code/12_star_wars_07_06_2024/src/components/Footer.tsx",
+    "code/12_star_wars_07_06_2024/src/components/Friend.tsx",
+    "code/12_star_wars_07_06_2024/src/components/Header.tsx",
+    "code/12_star_wars_07_06_2024/src/components/Hero.tsx",
+    "code/12_star_wars_07_06_2024/src/components/Main.tsx",
+    "code/12_star_wars_07_06_2024/src/components/Navigation.tsx",
+    "code/12_star_wars_07_06_2024/src/components/NavItem.tsx",
+    "code/12_star_wars_07_06_2024/src/utils/constants.ts",
+    "code/12_star_wars_07_06_2024/src/App.tsx",
+    "code/12_star_wars_07_06_2024/src/main.tsx",
+    "code/12_star_wars_07_06_2024/src/App.css",
+    "code/12_star_wars_07_06_2024/src/index.css"
+  ],
+  "video": "",
+  "etc": ""
+}
