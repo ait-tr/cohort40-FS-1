@@ -1,0 +1,24 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/14_redux_intro_11_06_2024/src/components/Book.tsx",
+    "code/14_redux_intro_11_06_2024/src/components/Counter.tsx",
+    "code/14_redux_intro_11_06_2024/src/components/Library.tsx",
+    "code/14_redux_intro_11_06_2024/src/components/Sandwich.tsx",
+    "code/14_redux_intro_11_06_2024/src/redux/counterActions.ts",
+    "code/14_redux_intro_11_06_2024/src/redux/counterReducer.ts",
+    "code/14_redux_intro_11_06_2024/src/redux/libraryActions.ts",
+    "code/14_redux_intro_11_06_2024/src/redux/libraryReducer.ts",
+    "code/14_redux_intro_11_06_2024/src/redux/sandwichActions.ts",
+    "code/14_redux_intro_11_06_2024/src/redux/sandwichReducer.ts",
+    "code/14_redux_intro_11_06_2024/src/redux/store.ts",
+    "code/14_redux_intro_11_06_2024/src/redux_rtk/counterSlice.ts",
+    "code/14_redux_intro_11_06_2024/src/redux_rtk/storeRTK.ts",
+    "code/14_redux_intro_11_06_2024/src/App.tsx",
+    "code/14_redux_intro_11_06_2024/src/main.tsx"
+  ],
+  "video": "",
+  "etc": ""
+}
