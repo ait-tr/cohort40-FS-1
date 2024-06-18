@@ -1,14 +1,19 @@
 **Как выложить страницу на github pages**
 
 1. Создайте папку на компьютере с проектом и кодом (index.html, styles.css и т.д.)
+
 2. Зайдите на github в браузере и создайте пустой репозиторий. (для этого: ваш профиль -> repositories -> зеленая кнопка new -> задаем имя репозитория Repository name -> зеленая кнопка Create repository )
+
 3. Инициировать локальный репозиторий. Для этого, ввести в VSCode команду git init. Внутри папки вашего проекта появится скрытая папочка .git
+
 4. Далее копируем команды в браузере из предложенных:
+```bash
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/<username>/<repo-name>.git
+git remote add origin "https://github.com/<username>/<repo-name>.git"
 git push -u origin main
+```
 
 **ВАЖНО** (Не забудьте заменить <username> и <repo-name> на ваше актуальное имя пользователя и имя репозитория. - можете взять эту команду из предложенных при создании репозитория)
 
