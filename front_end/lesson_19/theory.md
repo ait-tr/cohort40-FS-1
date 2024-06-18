@@ -94,8 +94,8 @@ npm run deploy -- -m "Deploy React app to GitHub Pages"
 
 Выберите следующие значения:
 
-**Source**: Deploy from a branch
-**Branch**: gh-pages
-**Folder**: / (root)
+1. Source: **Deploy from a branch**
+2. Branch: **gh-pages**
+3. Folder: **/ (root)**
 
 Нажмите "Save".
