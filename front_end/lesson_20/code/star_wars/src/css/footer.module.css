@@ -1,0 +1,13 @@
+footer {
+    background-color: rgba(60, 69, 67, 0.6);
+    border-radius: 0 0 15px 15px;
+    height: 6em;
+    clear: both;
+    position: relative;
+}
+
+.email {
+    font-size: 0.8em;
+    color: black;
+    /*font-variant: small-caps;*/
+}

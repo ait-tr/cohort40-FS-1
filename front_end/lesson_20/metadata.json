@@ -1,0 +1,32 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/star_wars/src/components/AboutMe.tsx",
+    "code/star_wars/src/components/Contact.tsx",
+    "code/star_wars/src/components/DreamTeam.tsx",
+    "code/star_wars/src/components/ErrorPage.tsx",
+    "code/star_wars/src/components/FarGalaxy.tsx",
+    "code/star_wars/src/components/Footer.tsx",
+    "code/star_wars/src/components/Friend.tsx",
+    "code/star_wars/src/components/Header.tsx",
+    "code/star_wars/src/components/Hero.tsx",
+    "code/star_wars/src/components/Home.tsx",
+    "code/star_wars/src/components/Main.tsx",
+    "code/star_wars/src/components/Navigation.tsx",
+    "code/star_wars/src/components/NavItem.tsx",
+    "code/star_wars/src/components/StarWars.tsx",
+    "code/star_wars/src/hoc/withHeroId.tsx",
+    "code/star_wars/src/utils/characters.tsx",
+    "code/star_wars/src/utils/constants.tsx",
+    "code/star_wars/src/utils/types.ts",
+    "code/star_wars/src/utils/useContext.ts",
+    "code/star_wars/src/App.tsx",
+    "code/star_wars/src/main.tsx",
+    "code/star_wars/src/App.css",
+    "code/star_wars/src/index.css"
+  ],
+  "video": "",
+  "etc": ""
+}
