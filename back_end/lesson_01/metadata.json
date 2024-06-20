@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/c_40_1_lesson_01/src/task_01/Main.java",
+    "code/c_40_1_lesson_01/src/task_01/MyThread1.java",
+    "code/c_40_1_lesson_01/src/task_01/MyThread2.java",
+    "code/c_40_1_lesson_01/src/task_02/Main.java",
+    "code/c_40_1_lesson_01/src/task_03/Main.java",
+    "code/c_40_1_lesson_01/src/task_03/MyThread.java",
+    "code/c_40_1_lesson_01/src/task_04/Main.java",
+    "code/c_40_1_lesson_01/src/task_04/MyThread.java"
+  ],
+  "video": ""
+}
