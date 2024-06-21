@@ -1,4 +1,6 @@
-package code;
+package code.repository;
+
+import code.entity.Task;
 
 import java.util.ArrayList;
 import java.util.List;

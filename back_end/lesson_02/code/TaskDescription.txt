@@ -11,4 +11,36 @@ CRUD (create, read, update, delete)
 
 ===========================================================
 
+Entity:
+
+Task
+- id
+- name
+- description
+
+Repository:
+
+TaskRepository
+List<Task> tasks
+
+
+Service:
+
+RequestDto:
+- name
+- description
+
+- ResponseDto<Task> addNewTask(RequestDto request); - добавление новой задачи
+- ResponseDto<Task> findById(Integer id);
+- ResponseDto<Task> findByName(String name);
+- ResponseDto<Boolean> deleteTaskBuId(Integer id);
+
+
+UI:
+
+- add new task
+- find task by id
+- find task by name
+- delete task by id
+
 
