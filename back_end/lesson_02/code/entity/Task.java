@@ -11,6 +11,9 @@ public class Task {
         this.taskDescription = taskDescription;
     }
 
+    public Task() {
+    }
+
     public Integer getId() {
         return id;
     }
