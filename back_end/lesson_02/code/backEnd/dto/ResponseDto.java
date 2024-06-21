@@ -1,4 +1,4 @@
-package code.dto;
+package code.backEnd.dto;
 
 import java.util.List;
 

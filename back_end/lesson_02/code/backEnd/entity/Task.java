@@ -1,4 +1,4 @@
-package code.entity;
+package code.backEnd.entity;
 
 public class Task {
     private Integer id;

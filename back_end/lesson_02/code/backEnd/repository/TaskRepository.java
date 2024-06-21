@@ -1,6 +1,6 @@
-package code.repository;
+package code.backEnd.repository;
 
-import code.entity.Task;
+import code.backEnd.entity.Task;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,9 @@
-package code.ui;
+package code.frontEnd.ui;
 
-import code.dto.RequestDto;
-import code.dto.ResponseDto;
-import code.entity.Task;
-import code.service.TaskServiceAdd;
+import code.backEnd.dto.RequestDto;
+import code.backEnd.dto.ResponseDto;
+import code.backEnd.entity.Task;
+import code.backEnd.service.TaskServiceAdd;
 
 import java.util.Scanner;
 

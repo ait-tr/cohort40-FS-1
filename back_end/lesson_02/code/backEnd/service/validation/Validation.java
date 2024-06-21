@@ -1,6 +1,6 @@
-package code.service.validation;
+package code.backEnd.service.validation;
 
-import code.dto.RequestDto;
+import code.backEnd.dto.RequestDto;
 
 import java.util.ArrayList;
 import java.util.List;

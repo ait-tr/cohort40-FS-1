@@ -1,10 +1,10 @@
-package code.service;
+package code.backEnd.service;
 
-import code.dto.RequestDto;
-import code.dto.ResponseDto;
-import code.entity.Task;
-import code.repository.TaskRepository;
-import code.service.validation.Validation;
+import code.backEnd.dto.RequestDto;
+import code.backEnd.dto.ResponseDto;
+import code.backEnd.entity.Task;
+import code.backEnd.repository.TaskRepository;
+import code.backEnd.service.validation.Validation;
 
 import java.util.List;
 
