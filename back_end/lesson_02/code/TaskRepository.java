@@ -24,9 +24,7 @@ public class TaskRepository {
         } else {
             return false;
         }
-
     }
-
 
     public Optional<Task> findById(Integer id){
         for (Task currentTask : tasks){
