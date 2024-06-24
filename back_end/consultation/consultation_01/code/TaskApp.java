@@ -5,7 +5,7 @@ import code.back.repository.TaskRepository;
 import code.back.service.AddTaskService;
 import code.back.service.FindTaskByIdService;
 import code.back.service.ValidationService;
-import code.back.service.validation.FindTaskAllService;
+import code.back.service.FindTaskAllService;
 import code.back.service.validation.validationRules.*;
 
 import java.util.ArrayList;
