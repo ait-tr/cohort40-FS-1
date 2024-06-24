@@ -1,0 +1,56 @@
+Написать приложение для хранения списка задач пользователя
+
+Функционал:
+CRUD (create, read, update, delete)
+
+- добавление новой задачи
+- поиск задачи по id
+- поиск задачи по названию
+- удаление задачи по id
+- редактирование задачи (описания)
+
+===========================================================
+
+Entity:
+Task
+- id
+- name
+- description
+
+Репозиторий:
+TaskRepository
+List<Task> tasks
+
+
+DTO (data transfer object)
+
+RequestDTO:
+- name
+- description
+
+
+ResponseDTO <T>:
+- result <T>
+- errors (List<String>)
+
+Service
+
+- ResponseDTO<Task> addNewTask(RequestDTO request) {}
+- ResponseDTO<Task> findById(Integer id) {}
+- ResponseDTO<List<Task>> findByName(String name) {}
+- ResponseDTO<Boolean deleteResult> deleteById(Integer id) {}
+
+- ResponseDTO<Task> updateTask(Integer id, RequestDTO request) {}
+
+
+
+UI
+- add new task
+- find task by Id
+- find task by name
+- delete task by Id
+- update task
+
+
+
+
