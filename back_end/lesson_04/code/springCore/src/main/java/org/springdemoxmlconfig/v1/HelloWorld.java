@@ -1,4 +1,4 @@
-package org.v1;
+package org.springdemoxmlconfig.v1;
 
 public class HelloWorld {
 

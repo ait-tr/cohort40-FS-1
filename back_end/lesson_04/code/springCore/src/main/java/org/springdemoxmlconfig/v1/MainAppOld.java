@@ -1,4 +1,4 @@
-package org.v1;
+package org.springdemoxmlconfig.v1;
 
 public class MainAppOld {
     public static void main(String[] args) {

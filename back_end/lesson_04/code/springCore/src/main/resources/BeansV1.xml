@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id = "helloworld" class="org.v1.HelloWorld" scope="singleton">
+    <bean id = "helloWorld" class="org.springdemoxmlconfig.v1.HelloWorld" scope="prototype">
         <constructor-arg value="Message A"></constructor-arg>
     </bean>
 
