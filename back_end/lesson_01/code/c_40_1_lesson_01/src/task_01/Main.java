@@ -8,8 +8,8 @@ public class Main {
         // 1. Наследуемся от класса Thread
         // 2. Реализуем интерфейс Runnable
 
-        task_01.MyThread1 myThread1 = new task_01.MyThread1();
-        task_01.MyThread2 myThread2 = new task_01.MyThread2();
+        MyThread1 myThread1 = new MyThread1();
+        MyThread2 myThread2 = new MyThread2();
 
         // Старт отдельного потока при первом способе
         myThread1.start();

@@ -1,9 +1,9 @@
 package lesson_02.code.frontEnd.ui;
 
-import code.backEnd.dto.RequestDto;
-import code.backEnd.dto.ResponseDto;
-import code.backEnd.entity.Task;
-import code.backEnd.service.TaskServiceAdd;
+import lesson_02.code.backEnd.dto.RequestDto;
+import lesson_02.code.backEnd.dto.ResponseDto;
+import lesson_02.code.backEnd.entity.Task;
+import lesson_02.code.backEnd.service.TaskServiceAdd;
 
 import java.util.Scanner;
 

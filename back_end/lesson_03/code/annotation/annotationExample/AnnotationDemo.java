@@ -17,7 +17,7 @@ public class AnnotationDemo {
     }
 
     static void testAnnotation(Object object){
-        if (!object.getClass().isAnnotationPresent(code.annotation.annotationExample.MyAnnotation.class)){
+        if (!object.getClass().isAnnotationPresent(MyAnnotation.class)){
             throw new RuntimeException("Объект не аннотирован аннотацией 'MyAnnotation'");
         } else {
             System.out.println("Метод testAnnotation завершен успешно");
