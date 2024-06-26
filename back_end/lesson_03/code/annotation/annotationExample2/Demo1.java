@@ -1,4 +1,4 @@
-package code.annotation.annotationExample2;
+package lesson_03.code.annotation.annotationExample2;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -9,7 +9,7 @@ public class Demo1 {
 
         Annotation[] annotations = example.getAnnotations();
         for (Annotation annotation : annotations){
-            if (annotation instanceof JavaFileInfo javaFileInfo) {
+            if (annotation instanceof code.annotation.annotationExample2.JavaFileInfo javaFileInfo) {
                 System.out.println("Автор: " + javaFileInfo.name());
                 System.out.println("Автор: " + javaFileInfo.value());
             }
@@ -20,7 +20,7 @@ public class Demo1 {
 
         annotations = method.getAnnotations();
         for (Annotation annotation : annotations){
-            if (annotation instanceof JavaFileInfo javaFileInfo) {
+            if (annotation instanceof code.annotation.annotationExample2.JavaFileInfo javaFileInfo) {
                 System.out.println("Автор: " + javaFileInfo.name());
                 System.out.println("Автор: " + javaFileInfo.value());
             }

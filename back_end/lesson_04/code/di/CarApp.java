@@ -1,4 +1,4 @@
-package code.di;
+package lesson_04.code.di;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package code.reflection;
+package lesson_03.code.reflection;
 
 import java.lang.reflect.Method;
 

@@ -1,4 +1,4 @@
-package code.annotation.annotationExample2;
+package lesson_03.code.annotation.annotationExample2;
 
 public class ParentExample {
 

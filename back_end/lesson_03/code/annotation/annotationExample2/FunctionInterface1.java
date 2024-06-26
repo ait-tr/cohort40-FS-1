@@ -1,4 +1,4 @@
-package code.annotation.annotationExample2;
+package lesson_03.code.annotation.annotationExample2;
 
 @FunctionalInterface
 public interface FunctionInterface1 {

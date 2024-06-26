@@ -1,4 +1,4 @@
-package code.backEnd.dto;
+package lesson_02.code.backEnd.dto;
 
 public class RequestDto {
     private String name;

@@ -1,4 +1,4 @@
-package code.annotation.depricatedAnnotation;
+package lesson_03.code.annotation.depricatedAnnotation;
 
 public class Parent {
 

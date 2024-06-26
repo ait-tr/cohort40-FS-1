@@ -1,4 +1,4 @@
-package task_01;
+package lesson_01.code.c_40_1_lesson_01.src.task_01;
 
 public class MyThread2 implements Runnable {
 

@@ -1,4 +1,4 @@
-package code.annotation.annotationExample;
+package lesson_03.code.annotation.annotationExample;
 
 public class AnnotationDemo {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class AnnotationDemo {
     }
 
     static void testAnnotation(Object object){
-        if (!object.getClass().isAnnotationPresent(MyAnnotation.class)){
+        if (!object.getClass().isAnnotationPresent(code.annotation.annotationExample.MyAnnotation.class)){
             throw new RuntimeException("Объект не аннотирован аннотацией 'MyAnnotation'");
         } else {
             System.out.println("Метод testAnnotation завершен успешно");

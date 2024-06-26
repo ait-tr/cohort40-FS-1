@@ -1,4 +1,4 @@
-package code.frontEnd.ui;
+package lesson_02.code.frontEnd.ui;
 
 import code.backEnd.dto.RequestDto;
 import code.backEnd.dto.ResponseDto;

@@ -1,4 +1,4 @@
-package code.di;
+package lesson_04.code.di;
 
 public class EngineDiesel implements EngineGeneral{
 

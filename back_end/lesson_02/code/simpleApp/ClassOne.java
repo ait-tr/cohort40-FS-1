@@ -1,4 +1,4 @@
-package code.simpleApp;
+package lesson_02.code.simpleApp;
 
 public class ClassOne {
 

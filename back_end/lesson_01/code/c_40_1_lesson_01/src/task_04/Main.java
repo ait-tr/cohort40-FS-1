@@ -1,4 +1,4 @@
-package task_04;
+package lesson_01.code.c_40_1_lesson_01.src.task_04;
 
 // Есть счётчик (целочисленный).
 // Есть три потока.

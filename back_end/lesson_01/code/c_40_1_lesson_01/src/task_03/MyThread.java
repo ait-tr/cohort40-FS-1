@@ -1,4 +1,4 @@
-package task_03;
+package lesson_01.code.c_40_1_lesson_01.src.task_03;
 
 public class MyThread extends Thread {
 

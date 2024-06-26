@@ -1,6 +1,7 @@
-package code.backEnd.repository;
+package lesson_02.code.backEnd.repository;
 
-import code.backEnd.entity.Task;
+
+import lesson_02.code.backEnd.entity.Task;
 
 import java.util.ArrayList;
 import java.util.List;

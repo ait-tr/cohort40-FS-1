@@ -1,4 +1,4 @@
-package code.reflection.example2;
+package lesson_03.code.reflection.example2;
 
 public class Human {
 
