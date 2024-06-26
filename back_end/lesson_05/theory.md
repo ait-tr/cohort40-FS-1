@@ -1,7 +1,5 @@
 # Lesson 05
 
-    # Lesson 06
-
 Подробный анализ Java SE vs Java EE, Сетевая модель OSI, Архитектура ПО и Протоколы
 
 **Java SE (Standard Edition):**
