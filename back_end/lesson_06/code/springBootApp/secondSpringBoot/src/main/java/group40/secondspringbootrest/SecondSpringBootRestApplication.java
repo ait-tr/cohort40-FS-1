@@ -1,4 +1,4 @@
-package lesson_06.code.springBootApp.secondSpringBootApp.src.main.java.group40.secondspringbootrest;
+package group40.secondspringbootrest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

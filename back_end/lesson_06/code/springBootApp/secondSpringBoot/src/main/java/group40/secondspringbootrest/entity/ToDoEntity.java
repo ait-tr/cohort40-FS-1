@@ -1,4 +1,4 @@
-package lesson_06.code.springBootApp.secondSpringBootApp.src.main.java.group40.secondspringbootrest.entity;
+package group40.secondspringbootrest.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

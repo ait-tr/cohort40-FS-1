@@ -1,4 +1,4 @@
-package lesson_06.code.springBootApp.secondSpringBootApp.src.main.java.group40.secondspringbootrest.repository;
+package group40.secondspringbootrest.repository;
 
 import group40.secondspringbootrest.entity.ToDoEntity;
 

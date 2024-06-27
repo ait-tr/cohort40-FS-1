@@ -1,4 +1,4 @@
-package lesson_06.code.springBootApp.secondSpringBootApp.src.main.java.group40.secondspringbootrest.service;
+package group40.secondspringbootrest.service;
 
 import group40.secondspringbootrest.dto.AddToDoRequest;
 import group40.secondspringbootrest.entity.ToDoEntity;
