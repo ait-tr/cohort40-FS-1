@@ -4,10 +4,12 @@ import group40.secondspringbootrest.dto.FindAllToDo;
 import group40.secondspringbootrest.entity.ToDoEntity;
 import group40.secondspringbootrest.repository.ToDoRepository;
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 @AllArgsConstructor
 public class FindAllToDoService {
 

@@ -3,7 +3,9 @@ package group40.secondspringbootrest.service;
 import group40.secondspringbootrest.dto.AddToDoRequest;
 import group40.secondspringbootrest.entity.ToDoEntity;
 import group40.secondspringbootrest.repository.ToDoRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AddToDoService {
 
     private ToDoRepository repository;

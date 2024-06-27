@@ -1,11 +1,13 @@
 package group40.secondspringbootrest.repository;
 
 import group40.secondspringbootrest.entity.ToDoEntity;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class ArrayToDoRepository implements ToDoRepository{
     private Integer idCounter = 1;
 

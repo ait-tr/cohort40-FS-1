@@ -1,9 +1,11 @@
 package group40.secondspringbootrest.dto;
 
 import group40.secondspringbootrest.entity.ToDoEntity;
+import lombok.Data;
 
 import java.util.List;
 
+// !!!!!
 public class FindAllToDo {
     private List<ToDoEntity> entities;
     private List<String> errors;
