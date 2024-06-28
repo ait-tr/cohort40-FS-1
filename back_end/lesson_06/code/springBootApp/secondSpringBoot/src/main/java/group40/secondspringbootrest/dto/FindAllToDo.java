@@ -6,6 +6,7 @@ import lombok.Data;
 import java.util.List;
 
 // !!!!!
+@Data
 public class FindAllToDo {
     private List<ToDoEntity> entities;
     private List<String> errors;
