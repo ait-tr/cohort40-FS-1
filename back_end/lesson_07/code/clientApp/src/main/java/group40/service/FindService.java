@@ -4,10 +4,13 @@ import group40.entity.Client;
 import group40.repository.ClientRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+
+@Service
 public class FindService {
 
     private final ClientRepository repository;

@@ -1,9 +1,12 @@
 package group40.repository;
 
 import group40.entity.Client;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+
+@Repository
 public class ClientRepositoryMap implements ClientRepository{
 
     private Integer clientId = 0;

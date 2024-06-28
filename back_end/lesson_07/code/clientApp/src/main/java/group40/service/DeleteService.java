@@ -3,7 +3,10 @@ package group40.service;
 import group40.repository.ClientRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
+
+@Service
 public class DeleteService {
     private final ClientRepository repository;
 
