@@ -1,6 +1,5 @@
 # Lesson 04
 
-
 ### Лекция: Основы Spring Core
 
 #### Введение в Spring Framework
