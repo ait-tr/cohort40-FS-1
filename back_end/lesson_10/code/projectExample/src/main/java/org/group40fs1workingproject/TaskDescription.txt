@@ -1,0 +1,15 @@
+Написать приложение для учета задач для пользователей
+
+Task
+Manager
+Role для manager
+
+-addTask
+-findAllTask
+-findTaskById
+-findTaskByManager
+
+-addManager
+-findAllManager
+-findManagerById
+-findManagerEmail
