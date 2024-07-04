@@ -2,10 +2,11 @@ package org.group40fs1project2.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.Type;
 
 import java.time.LocalDateTime;
 
@@ -17,7 +18,11 @@ public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @NotBlank
+    @Size(min =3, max = 15, message = "Task name length must be between 3 and 15 characters")
     private String taskName;
+
     private String taskDescription;
 
     @ManyToOne(fetch = FetchType.EAGER)

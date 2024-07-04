@@ -1,8 +1,9 @@
 package org.group40fs1project2.controller;
 
-import lombok.extern.slf4j.Slf4j;
+import jakarta.validation.ConstraintViolationException;
 import org.group40fs1project2.exception.AlreadyExistException;
 import org.group40fs1project2.exception.NotFoundException;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -28,6 +29,21 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(exception.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
+    @ExceptionHandler(ConstraintViolationException.class)
+    public ResponseEntity<String> handlerConstraintViolationException(ConstraintViolationException exception){
+
+        StringBuilder responseMessage = new StringBuilder();
+
+        exception.getConstraintViolations()
+                .forEach(constraintViolation -> {
+                    String message = constraintViolation.getMessage();
+                    responseMessage.append(message);
+                    responseMessage.append("\n");
+                });
+
+
+        return new ResponseEntity<>(responseMessage.toString(), HttpStatus.BAD_REQUEST);
+    }
 
 
 }
