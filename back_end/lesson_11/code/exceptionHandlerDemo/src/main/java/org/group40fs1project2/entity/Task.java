@@ -1,11 +1,11 @@
-package org.group40fs1workingproject.entity;
+package org.group40fs1project2.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Type;
 
 import java.time.LocalDateTime;
 
@@ -25,8 +25,34 @@ public class Task {
     @JsonBackReference
     private Manager manager;
     private LocalDateTime createDate;
+    // @Type(type="org.hibernate.type.StringType")
     private LocalDateTime lastUpdate;
     private LocalDateTime deadline;
+    @Enumerated(EnumType.ORDINAL)
     private TaskStatus status;
+
+//    @Convert(converter = StringBufferConverter.class)
+//    private StringBuffer stringBuffer;
+
+/*
+Список типов
+
+HibernateClass - Тип SQL - Тип JAVA
+
+StringTyp - VARCHAR - String
+TextType  - LONGVARCHAR - String
+BooleanType - BIT - boolean
+IntegerType - INTEGER - Integer
+LongType - BIGINT - long
+
+BigDecimalType - NUMERIC - BigDecimal
+
+TimeType    - TIME - Time (библиотека НЕ java.util, а java.sql)
+DateType    - Date - Date
+CalendarType
+
+
+
+ */
 
 }
