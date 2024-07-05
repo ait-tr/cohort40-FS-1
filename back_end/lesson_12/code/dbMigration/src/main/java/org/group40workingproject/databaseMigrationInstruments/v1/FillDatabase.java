@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Data
 @AllArgsConstructor
-@Component
+//@Component
 public class FillDatabase {
 
     private final RoleRepository roleRepository;

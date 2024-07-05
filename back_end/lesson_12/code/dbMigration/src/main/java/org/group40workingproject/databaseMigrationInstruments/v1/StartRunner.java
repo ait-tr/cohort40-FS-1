@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Data
 @AllArgsConstructor
 @Slf4j
-@Component
+//@Component
 public class StartRunner implements CommandLineRunner {
 
     private FillDatabase fillDatabase;
