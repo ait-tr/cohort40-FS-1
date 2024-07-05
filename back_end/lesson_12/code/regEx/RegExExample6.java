@@ -3,11 +3,11 @@ package lesson_12.code.regEx;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegExExample4 {
+public class RegExExample6 {
     public static void main(String[] args) {
-        String inputString = "привет Антон Александр Аdа Алла Андрей";
+        String inputString = "cat cat23 cat23_user caaaaat5_5e cat7.6";
         /// -------
-        String regex = "А.+?а";
+        String regex = "cat\\w*";
 
         // A(может быть а может и НЕ быть любое количество символов)а
 
