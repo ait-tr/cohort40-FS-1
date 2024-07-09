@@ -1,4 +1,2 @@
-1. Моделирование API
-2. JSON
-3. DTO
-4. Работа с внешними api-сервисами
+1. SWAGGER
+2. Spring Security
