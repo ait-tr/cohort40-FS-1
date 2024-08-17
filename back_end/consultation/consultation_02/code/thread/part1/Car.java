@@ -1,4 +1,4 @@
-package code.thread.part1;
+package consultation.consultation_02.code.thread.part1;
 
 public class Car extends Thread {
 
